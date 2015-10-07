@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  font-family: helvetica, sans-serif;
+  margin: 0 auto;
+  max-width: 1000px;
+  background: #232323;
+}
+div {
+  height: 250px;
+  padding: 20px 20px 20px 20px;
+  margin: 40px 40px 40px 40px;
+  border-radius: 12px;
+}
+h1 {
+  font-family: 'Righteous', cursive;
+  text-align: left;
+  font-size: 75px;
+  color: #aaaaaa;
+  margin: 60px 0 0 10px;
+}
+h2 {
+  text-align: left;
+  color: #bbbbbb;
+  margin: 0 0 40px 10px;
+}
+p {
+	display: inline;
+	padding: 25px 20px 25px 20px;
+	margin: 0 0 0 10px;
+	line-height: 50px;
+	text-align: justify;
+	
+}
+img{
+	padding: 10px 40px 10px 40px;
+}
+li {
+	display: inline;
+	padding: 5px 90px 0px 20px;
+	text-align: left;
+	color: white;
+}
+.long {
+	color: rgba(255,255,255,1);
+	background: black;
+	
+}
+.persona {
+	height: 400px;
+	
+
+}
+
+.comps{
+	color: rgba(255,255,255,1);
+	background: black;
+	height: 200px;
+}
