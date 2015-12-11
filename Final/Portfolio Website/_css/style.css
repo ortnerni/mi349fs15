@@ -1,0 +1,165 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body{
+	margin:0;
+	padding:0;
+	font-family: 'Josefin Sans', Arial, sans-serif;
+	background-color: #FCFCFC;
+	background-image: url(../_img/textured_paper_edit.png);
+	background-repeat:repeat;
+}
+a{
+	text-decoration:none; 
+	padding-top: 0px;	
+	margin: 0;
+	text-align:center;
+	color:#333;
+	text-shadow:1px 1px 5px rgba(0,0,0,0.2);
+	
+}
+a.visted{
+	color:#333;
+}
+input{
+      border: 1;
+	  border-color:#C6DDE3;
+      padding: 6px;
+      font-size: 15px;      
+}
+button{
+	  padding: 9px;
+      background: red;
+	  border: 0;
+      color: white;
+}
+h1{
+	font-size: 21px;
+	font-weight: 600;
+	line-height: 40px;
+	letter-spacing: 0.2em;
+	padding-top: 0px;	
+	margin: 0;
+	text-align:center;
+	color:#333;
+	text-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+}
+h2{
+	font-size:10px;
+	font-weight:400;
+	text-transform:uppercase; 
+	letter-spacing: 0.2em;
+	line-height: 13px;
+	display: block;
+}
+h3{
+	font-size:11px;
+	font-weight:400;
+	font-style:italic;
+	text-transform:uppercase; 
+	line-height:10px;
+	letter-spacing: 0.2em; 
+	display: block;
+}
+h3.a{
+	text-decoration:none; 
+	color:#00c6ff;
+	font-style:italic;
+}
+h4{
+	font-size: 35px;
+    line-height: 18px;
+    letter-spacing: 5px;
+    color: #423c4c;
+    -webkit-font-smoothing: antialiased;
+    text-align: left;
+	margin: 0 0 15px 0;
+}
+p{
+	font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: #62676b;
+    -webkit-font-smoothing: antialiased;
+    text-align: left;
+	margin: 20px 0 20px 0;
+}
+
+#footer{
+	background-color: #CCC;
+	background: linear-gradient(top, rgba(255,255,255,1), rgba(0,0,0,.2));
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1), rgba(0,0,0,.2));
+	background: -moz-linear-gradient(top, rgba(255,255,255,1), rgba(0,0,0,.2));
+	bottom: 0;
+	height: 30px;
+	margin: 30px 0 0 0;
+}
+
+#title{
+	text-align: center;
+}
+#space{
+	height: 20px;
+}
+.view {
+    margin: 3px;
+    float: left;
+    border: 2px solid #fff;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    box-shadow: 0px 0px 6px #8277D0;
+    cursor: default;
+}
+
+.view .content {
+   position: absolute;
+   overflow: hidden;
+
+}
+
+.view img {
+   display: block;
+   position: relative;
+}
+
+
+/* FADE EFFECTS */
+.fade-effect img {
+	opacity:0.4;
+	-moz-transition: all 0.4s ease-in;
+	-webkit-transition: all 0.4s ease-in;
+	-o-transition: all 0.4s ease-in;
+	-ms-transition: all 0.4s ease-in;
+	transition: all 0.4s ease-in;
+}
+
+.fade-effect:hover img {
+	opacity:1;
+}
+
+
+
+@media only screen and (max-width: 869px){
+	h2{
+		font-size: 9px;
+		line-height: 12px;
+	}
+	h3{
+		font-size: 10px;
+	}
+}
+@media only screen and (max-width: 599px){
+	h1{
+		font-size: 15px;
+		font-weight: 500;
+		line-height: 20px;
+	}
+	h2{
+		font-size: 8px;
+		line-height: 10px;
+	}
+	h3{
+		font-size: 9px;
+	}
+}
